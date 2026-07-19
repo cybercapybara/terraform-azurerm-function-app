@@ -9,7 +9,7 @@ default hostname.
 
 ```hcl
 module "function_app" {
-  source = "github.com/cybercapybara/terraform-azurerm-function-app"
+  source = "github.com/moveeeax/terraform-azurerm-function-app"
 
   name                 = "prod-func01"
   service_plan_name    = "prod-func-asp"
